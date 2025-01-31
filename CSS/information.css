@@ -125,9 +125,10 @@ nav{
     padding: 0px 70px;
     background-color: rgb(239, 239, 240);
 }
-.wrap{
-    outline: 1px solic;
+.wrap1{
+    outline: 1px solid;
     background-color: white;
+    padding: 10px 10px;
 }
 .r{
     padding-left: 5px;
