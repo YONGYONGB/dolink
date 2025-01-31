@@ -18,7 +18,7 @@
                             <img src="./img/6a6c56a3b81b4b39038cb4bc0dfe702b.jpg" class ="log">
                         </div>
                         <div class = "logname">
-                            <p> Rupee</p>
+                            <label for="exampleFormControlInput1" class="form-label">Ruppy</label> 
                         </div>
                     </div>         
                 </div>
@@ -27,13 +27,13 @@
                 <div class = "col-2 "> 
                     <div class = "logarray">
                         <div>
-                            <input type="button" class ="log">
+                            <button type="submit" class="btn btn-primary mb-3 button"></button>
                         </div>
                         <div>
-                            <input class ="log" type="button">
+                            <button type="submit" class="btn btn-primary mb-3 button"></button>
                         </div>
                         <div>
-                            <input type="button" class ="log">
+                            <button type="submit" class="btn btn-primary mb-3 button"></button>
                         </div>
                     </div>
                 </div>
@@ -137,77 +137,86 @@
                     <div class = wrap1>
                         <div class = wrap2>
                             <div class = "row r1">
-                                <p>기본정보</p>
+                                <label for="exampleFormControlInput1" class="form-label">기본정보</label> 
                             </div>
                         </div>
                         <div class = wrap3>
                             <div class = "row r r2">
                                 <div class="col-3">
-                                    <p>코드그룹</p>
-                                    <select><option value="">선택하세요</option>
-                                        <option value="그룹1">그룹1</option><option value="그룹2">그룹2</option></select>
+                                    <label for="exampleFormControlInput1" class="form-label">코드그룹</label> 
+                                    <select class="form-select" aria-label="Default select example">
+                                        <option selected>선택하세요</option>
+                                      </select>
                                 </div>
                             </div>
                             <div class = "row r r3">
-                                <div class="col-3"><label for="code">코드</label>
-                                    <input type="text" id="code" name="code" placeholder="자동생성"></div>
-                                <div class="col-3"><label for="code(ANOTHER)">코드&nbsp;(ANOTHER)</label><input type="text" id="code(ANOTHER)" name="code(ANOTHER)" placeholder="영대소문자, 숫자"></div>
-                                <div class="col-3"><label for="codename">코드&nbsp;이름</label>
-                                    <input type="text" id="codename" name="codename" placeholder="한글, 영대소문자, 숫자"></div>
-                                <div class="col-3"><label for="code&nbsp;이름(영문)">코드 이름(영문)</label><input id="code&nbsp;이름(영문)" name="code&nbsp;이름(영문)" type="text" placeholder="영대소문자, 숫자"></div>
+                                <div class="col-3"><label for="exampleFormControlInput1" class="form-label">코드</label> 
+                                    <input type="text" class="form-control" id="exampleFormControlInput1" aria-label="Disabled input example" disabled></div>
+                                <div class="col-3"><label for="exampleFormControlInput2" class="form-label">코드&nbsp;(ANOTHER)</label> 
+                                    <input type="text" class="form-control" id="exampleFormControlInput2"></div>
+                                <div class="col-3"><label for="exampleFormControlInput3" class="form-label">코드&nbsp;이름</label> 
+                                    <input type="text" class="form-control" id="exampleFormControlInput3" placeholder="한글, 영어대소문자, 숫자"></div>
+                                <div class="col-3"><label for="exampleFormControlInput4" class="form-label">코드&nbsp;이름(영문)</label> 
+                                    <input type="text" class="form-control" id="exampleFormControlInput4" placeholder=" 영어대소문자, 숫자"></div>
                             </div>
                             <div class = "row r r4">
-                                <div class = "col-3"><p>사용여부</p>
-                                    <select><option value="사용">사용</option>
-                                    <option value="미사용">미사용</option></select></div>
-                                <div class = "col-3"><p>순서</p><input type="text"></div>
+                                <div class = "col-3"><label for="exampleFormControlInput5" class="form-label">사용여부</label> 
+                                    <select class="form-select" aria-label="Default select example">
+                                        <option selected>선택하세요</option>
+                                      </select></div>
+                                <div class = "col-3"><label for="exampleFormControlInput6" class="form-label">순서</label> 
+                                    <input type="text" class="form-control" id="exampleFormControlInput6"></div>
                             </div>
                             <div class = "row r r5">
                                 <div class = "col-6">
-                                    <label for="explan">설명</label><br>
-                                    <textarea id="explan" name="explan"></textarea>
+                                    <label for="exampleFormControlTextarea1" class="form-label"> 설명 </label>
+                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                                 </div>
                             </div>
                         </div>
                         <div class = "wrap4">
                             <div class = "row r r6">
-                                <div class="col-3"><label for="lan1">다국어1</label>
-                                    <input type="text" id="lan1" name="lan1"></div>
-                                <div class="col-3"><label for="lan2">다국어2</label><input type="text" id="lan2" name="lan2"></div>
-                                <div class="col-3"><label for="lan3">다국어3</label>
-                                    <input type="text" id="lan3" name="lan3"></div>
-                                <div class="col-3"><label for="lan4">다국어4</label><input id="lan4" name="lan4" type="text"></div>
+                                <div class="col-3"><label for="exampleFormControlInput7" class="form-label">다국어1</label> 
+                                    <input type="text" class="form-control" id="exampleFormControlInput7"></div>
+                                <div class="col-3"><label for="exampleFormControlInput8" class="form-label">다국어2</label> 
+                                    <input type="text" class="form-control" id="exampleFormControlInput8"></div>
+                                <div class="col-3"><label for="exampleFormControlInput9" class="form-label">다국어3</label> 
+                                    <input type="text" class="form-control" id="exampleFormControlInput9"></div>
+                                <div class="col-3"><label for="exampleFormControlInput10" class="form-label">다국어4</label> 
+                                    <input type="text" class="form-control" id="exampleFormControlInput10"></div>
                             </div>
                             <div class = "row r r7">
-                                <div class="col-3"><label for="lan5">다국어5</label>
-                                    <input type="text" id="lan5" name="lan5"></div>
-                                <div class="col-3"><label for="lan6">다국어6</label>
-                                    <input type="text" id="lan6" name="lan6"></div>
-                                <div class="col-3"><label for="lan7">다국어7</label>
-                                    <input type="text" id="lan7" name="lan7"></div>
-                                <div class="col-3"><label for="lan8">다국어8</label>
-                                    <input id="lan8" name="lan8" type="text"></div>
+                                <div class="col-3"><label for="exampleFormControlInput11" class="form-label">다국어5</label> 
+                                    <input type="text" class="form-control" id="exampleFormControlInput11"></div>
+                                <div class="col-3"><label for="exampleFormControlInput12" class="form-label">다국어6</label> 
+                                    <input type="text" class="form-control" id="exampleFormControlInput12"></div>
+                                <div class="col-3"><label for="exampleFormControlInput13" class="form-label">다국어7</label> 
+                                    <input type="text" class="form-control" id="exampleFormControlInput13"></div>
+                                <div class="col-3"><label for="exampleFormControlInput14" class="form-label">다국어8</label> 
+                                    <input type="text" class="form-control" id="exampleFormControlInput14"></div>
                             </div>
                             <div class = "row r r8">
-                                <div class="col-3"><label for="pre1">예비1 (VARCHAR TYPE)</label>
-                                    <input type="text" id="pre1" name="pre1"></div>
-                                <div class="col-3"><label for="pre2">예비2 (VARCHAR TYPE)</label>
-                                    <input type="text" id="pre2" name="pre2"></div>
-                                <div class="col-3"><label for="pre3">예비3 (VARCHAR TYPE)</label>
-                                    <input type="text" id="pre3" name="pre3"></div>
-                                <div class="col-3"><label for="lan8">예비4 (VARCHAR TYPE)</label>
-                                    <input id="pre4" name="pre4" type="text"></div>
+                                <div class="col-3"><label for="exampleFormControlInput15" class="form-label">예비1 (VARCHAR TYPE)</label> 
+                                    <input type="text" class="form-control" id="exampleFormControlInput15"></div>
+                                <div class="col-3"><label for="exampleFormControlInput16" class="form-label">예비2 (VARCHAR TYPE)</label> 
+                                    <input type="text" class="form-control" id="exampleFormControlInput16"></div>
+                                <div class="col-3"><label for="exampleFormControlInput17" class="form-label">예비3 (VARCHAR TYPE)</label> 
+                                    <input type="text" class="form-control" id="exampleFormControlInput17"></div>
+                                <div class="col-3"><label for="exampleFormControlInput18" class="form-label">예비4 (VARCHAR TYPE)</label> 
+                                    <input type="text" class="form-control" id="exampleFormControlInput18"></div>
                             </div>
                             <div class = "row r r9">
-                                <div class="col-3"><label for="pre5">예비1 (INT TYPE)</label>
-                                    <input type="text" id="pre5" name="pre5"></div>
-                                <div class="col-3"><label for="pre6">예비2 (INT TYPE)</label>
-                                    <input type="text" id="pre6" name="pre6"></div>
-                                <div class="col-3"><label for="pre7">예비3 (INT TYPE)</label>
-                                    <input type="text" id="pre7" name="pre7"></div>
-                                <div class="col-3"><label for="lan8">예비4 (INT TYPE)</label>
-                                    <input id="pre8" name="pre8" type="text"></div>
+                                <div class="col-3"><label for="exampleFormControlInput19" class="form-label">예비1 (INT TYPE)</label> 
+                                    <input type="text" class="form-control" id="exampleFormControlInput19"></div>
+                                <div class="col-3"><label for="exampleFormControlInput20" class="form-label">예비2 (INT TYPE)</label> 
+                                    <input type="text" class="form-control" id="exampleFormControlInput20"></div>
+                                <div class="col-3"><label for="exampleFormControlInput21" class="form-label">예비3 (INT TYPE)</label> 
+                                    <input type="text" class="form-control" id="exampleFormControlInput21"></div>
+                                <div class="col-3"><label for="exampleFormControlInput22" class="form-label">예비4 (INT TYPE)</label> 
+                                    <input type="text" class="form-control" id="exampleFormControlInput22"></div>
                             </div>
+
+                        
                         </div>
                     </div>    
                 </div>              <!-- 중앙 부분  기본정보 End -->
