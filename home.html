@@ -68,8 +68,13 @@
             width: 300px;
             padding: 0px;
             margin: 0px;
+           justify-content: center;
         }
-        .l > p{
+        .q{
+            justify-items: center;
+        }
+
+        .row > label{
             text-align: left;
             font-size: 10px;
         }
@@ -101,42 +106,43 @@
             </div>
             <div class = "row justify-content-md-center">
                 <div>
-                    <p id = "sig">Sign in</p>   
+                    <label for="exampleFormControlInput1" class="form-label">Sign in</label> 
                 </div>
-                <div>   
-                   <p> Get access to your account</p>
+                <div> 
+                   <label for="exampleFormControlInput1" class="form-label">Get access to your account</label>
                 </div>
             </div>
             <br>
             <div class= "row justify-content-center">
-                <div class= "col-12 a">
-                    <input class ="button" type="button" value="Sign in with google">
+                <div class= "col-12">
+                    <button type="submit" class="btn btn-primary mb-3 button">Sign in with google</button>
                 </div>
-                <div class= "col-12 a">
-                    <input class ="button" type="button" value="Sign in with google" >
+                <div class= "col-12">
+                    <button type="submit" class="btn btn-primary mb-3 button">Sign in with facebook</button>
                 </div>
             </div>
             <div class="row justify-content-center">
                 <div class = "l">
-                    <div class="line"> or use email</div>
+                    <label for="exampleFormControlInput1" class="form-label">Sign in</label>
                 </div>
             </div>
             <div class = "row justify-content-center"> <!--  --> 
-                <div class ="l">
-                        <p>ID</p>
+                <label for="exampleFormControlInput1" class="form-label l">Email address</label>
+                <div class ="col-12 q">
+                    <input type="email" class="form-control ctext form" id="exampleFormControlInput1" placeholder="name@example.com">
                 </div>
-                <div class ="col-12">
-                    <input class="ctext" type="text" placeholder="name@example.com">
-                </div>
-                <div class ="l">
-                    <p>PASSWORD</p>
-                </div>
-                <div class ="col-12">
-                    <input class="ctext" type="password" placeholder="name@example.com">
+                <label for="exampleFormControlInput1" class="form-label l">Password</label>
+                <div class ="col-12 q">
+                    <input type="password" class="form-control ctext" id="inputPassword2" placeholder="Password">
                 </div>
                 <div class="row button">
                     <div class ="col-6 rm">
-                        <input class="" type="checkbox"> Remember me
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                            <label class="form-check-label" for="flexCheckDefault">
+                              Remeber me
+                            </label>
+                          </div>
                     </div>
                     <div class ="col-6 fg">
                         <a href="" class="href"> Forget Password?</a>
@@ -146,7 +152,7 @@
             <br><br>  
             <div class="row justify-content-center">
                 <div class="col-12">
-                    <input class="button" type="button" value="Sign in" style="background-color: blue; color: white;" >
+                    <button type="submit" class="btn btn-primary mb-3 button">Sign in with google</button>
                 </div>
                 <div class="col-12">
                     <a href="" class="href"> creat an account</a> 

@@ -57,10 +57,8 @@
     height: 100%;
 }
 
-
-                            /* 중앙부분 시작*/
-                            /* 메뉴판 설정중*/
-nav{
+   /* 메뉴판 설정중*/
+.body> .col-2 > nav{
     height: 100vh;
     border-right: 1px solid;
 }
@@ -88,103 +86,61 @@ nav{
     color: black;
 }
 
-                 /* 메뉴판 드롭설정중*/
-
-
-.dropdown{
-    position: relative;
-}
-
-.dropdown-meun {
-    display: none;
-    position: relative;
-    min-width: 160px;
-    visibility: hidden;
-    opacity: 0;
-    z-index: 10;
-    text-decoration: none;
-}
-
-.dropdown:hover .dropdown-meun {
-    display: block;
-    background-color: white;
-    color: black;
-    visibility: visible;
-    opacity: 1;
-    text-decoration: none;
-    z-index: 100;
-}
-
-.dropdown-meun a:hover {
-    color: black;
-    text-decoration: none;
-}
             /* 중앙 정보 */
-.cen{
-    position: relative;
-    display: inline-block;
-    padding: 0px 30px;
-    background-color: rgb(239, 239, 240);
-}
-.wrap1{
-    outline: 1px solid;
-    background-color: white;
-    padding: 0px;
-}
-.r{
-    padding-left: 5px;
-    padding-top: 5px;
-}
-label{
-    padding-left: 5px;
-    padding-top: 5px;
-    margin: 0px;
-}
+
 p{
     padding-left: 5px;
     padding-top: 5px;
     margin: 0px;
 }
 
-input{
-    width: 100%;
-}
-select{
-    width: 100%;
-    max-height: 30px;
-    height: 100%;
-}
-
-                /* r1 파트 */
-.r1{
-    margin: 0px;
-    padding: 0px;
-    border-bottom: 1px solid;
+.cen{
+    position: relative;
+    display: inline-block;
+    padding: 0px 30px;
     background-color: rgb(239, 239, 240);
 }
 
-.r1 > p{
-    font-size: 20px;
-    padding-bottom: 10px;
+.a{
+    padding-top: 2%;
 }
-                
-                /* r3 파트 */
-                /* r4 파트 */
 
-                /* r5 파트 */
+.par{
+    font-size: 40px;
+    text-align: left;
+    padding: 0px;
 
-.col-6 > textarea{
+}
+.a > div> nav > ol{
+    margin: 0px;
+}
+
+.firstbody{
+    display: flex;
+}
+
+.fbele{
+    margin: 5px;
+    justify-items: center;
+}
+
+.fbele > button{
+    border: none;
+    max-width: 30px;
+    max-height: 30px;
     width: 100%;
     height: 100%;
+    margin: 1%;
+    padding: 0px;
 }
 
-.wrap3{
-    padding: 0px 10px;
+.fbele > input{
+
+    height: 100%;
+    width: 100%;
 }
 
-.wrap4{
-    padding-top: 25px;
-    padding-bottom: 25px;
-    padding-left: 10px;
-    padding-right: 10px;
+.bu{
+    display: flex;
+    flex-direction: row;
 }
