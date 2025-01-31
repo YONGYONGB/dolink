@@ -1,19 +1,19 @@
 .a{
     padding-left: 0px;
     padding-right: 0px;
-    margin-left: 40px;
-    margin-right: 50px;
+    margin-left: 0px;
+    margin-right: 0px;
 }        
 
 
 
 .ceiling{
-    margin-top: 5%;
+    margin-top: 1%;
     border-bottom: 1px solid;
+    max-width: 1600px;
 }
 
 .ceil1{
-    margin-left: 0px;
     align-items: flex-start;
 }
 
@@ -70,6 +70,8 @@ nav{
     margin-top: 30px;
     max-height: 300px;
     height: 100%;
+    margin-left: 0px;
+    padding-right: 0px;
 }
 
 
@@ -120,8 +122,8 @@ nav{
 .cen{
     position: relative;
     display: inline-block;
-    padding: 0px 30px;
-    background-color: rgb(235, 232, 243);
+    padding: 0px 70px;
+    background-color: rgb(239, 239, 240);
 }
 .wrap{
     outline: 1px solic;
