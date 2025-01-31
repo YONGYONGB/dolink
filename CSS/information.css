@@ -128,7 +128,7 @@ nav{
 .wrap1{
     outline: 1px solid;
     background-color: white;
-    padding: 10px 10px;
+    padding: 0px;
 }
 .r{
     padding-left: 5px;
@@ -177,6 +177,13 @@ select{
     height: 100%;
 }
 
-.wrap2{
+.wrap3{
+    padding: 0px 10px;
+}
+
+.wrap4{
     padding-top: 25px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
