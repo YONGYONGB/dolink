@@ -189,3 +189,21 @@ select{
     padding-left: 10px;
     padding-right: 10px;
 }
+
+
+.r10 > .col-1{
+    margin-top: 10px;
+    text-align: center;
+}
+
+.r10 > .col-1> .bt1{
+    border: 1px solid #000;
+    background-color: white;
+    color: #000;
+}
+
+.r10 > .col-1> .bt2{
+    border: 1px solid #000;
+    background-color: blue;
+    color: white;
+}

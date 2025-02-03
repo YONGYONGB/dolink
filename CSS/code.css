@@ -197,3 +197,12 @@ table > tr> th{
     background-position: center;
     background-color: red;
 }
+
+.wrapfin > .fini{
+    text-align: right;
+}
+
+.logarray > div > button{
+    margin-bottom: 0px;
+    height: 100%;
+}
