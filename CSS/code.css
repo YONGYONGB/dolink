@@ -9,7 +9,6 @@
 
 
 .ceiling{
-    margin-top: 1%;
     border-bottom: 1px solid;
     max-width: 1600px;
 }
@@ -203,6 +202,6 @@ table > tr> th{
 }
 
 .logarray > div > button{
-    margin-bottom: 0px;
+    margin: 0px;
     height: 100%;
 }

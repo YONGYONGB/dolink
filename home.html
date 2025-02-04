@@ -96,6 +96,32 @@
             text-decoration: none;
         }
 
+        #loginbox li:nth-child(1)>input{
+            background: url(./img/gogle.png) no-repeat 5px center;
+            background-size: 30px;
+            padding-left: 30px;
+        }
+
+        .bt1{
+            background-color: white;
+            border: 1px solid rgb(0, 0, 0);
+            color: black;
+            align-items: center;
+            text-align: center;
+        }
+
+        .btback1{
+            background-image: url(./img/gogle.png);
+            background-size: 30px;
+            background-repeat: no-repeat;
+        }
+        .btback2{
+            background-image: url(./img/facebook.png);
+            background-size: 30px;
+            background-repeat: no-repeat;
+        }
+
+
     </style>
 </head>
 <body>
@@ -115,10 +141,10 @@
             <br>
             <div class= "row justify-content-center">
                 <div class= "col-12">
-                    <button type="submit" class="btn btn-primary mb-3 button">Sign in with google</button>
+                    <button type="submit" class="btn btn-primary mb-3 button bt1 btback1"> Sign in with google</button>
                 </div>
                 <div class= "col-12">
-                    <button type="submit" class="btn btn-primary mb-3 button">Sign in with facebook</button>
+                    <button type="submit" class="btn btn-primary mb-3 button bt1 btback2">Sign in with facebook</button>
                 </div>
             </div>
             <div class="row justify-content-center">
@@ -129,7 +155,7 @@
             <div class = "row justify-content-center"> <!--  --> 
                 <label for="exampleFormControlInput1" class="form-label l">Email address</label>
                 <div class ="col-12 q">
-                    <input type="email" class="form-control ctext form" id="exampleFormControlInput1" placeholder="name@example.com">
+                    <input type="email" class="form-control ctext form" id="exampleFormControlInput1 loginbox" placeholder="name@example.com">
                 </div>
                 <label for="inputPassword2" class="form-label l">Password</label>
                 <div class ="col-12 q">
@@ -152,7 +178,7 @@
             <br><br>  
             <div class="row justify-content-center">
                 <div class="col-12">
-                    <button type="submit" class="btn btn-primary mb-3 button">Sign in with google</button>
+                    <button type="submit" class="btn btn-primary mb-3 button">Sign in</button>
                 </div>
                 <div class="col-12">
                     <a href="" class="href"> creat an account</a> 
