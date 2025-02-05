@@ -129,7 +129,7 @@
                             <li class="breadcrumb-item active" aria-current="page">Default</li>
                           </ol>
                       </nav>
-                      <label for="exampleFormControlInput1" class="form-label par"><strong>Code</strong></label> 
+                      <label for="exampleFormControlInput1" class="form-label par"><strong>Code Group</strong></label> 
                     </div>
                   </div>
                   <div class = "row-1 firstbody">
@@ -144,6 +144,8 @@
                       <div class = "col-2 fbele"><select class="form-select" aria-label="Default select example">
                           <option selected>날짜</option>
                           <option value="1">날짜</option>
+                          <option value="2">등록일</option>
+                          <option value="3">수정일</option>
                         </select></div>
                       <div class = "col-2 fbele"><input type="date"></div>
                       <div class = "col-2 fbele"><input type="date"></div>
@@ -152,12 +154,15 @@
                       <div class = "col-2  fbele "><select class="form-select" aria-label="Default select example">
                           <option selected>검색구분</option>
                           <option value="1">검색구분</option>
+                          <option value="2">코드그룹 코드</option>
+                          <option value="3">코드그룹 이름</option>
+                          <option value="4">코드그룹 이름(영문)</option>
                         </select></div>
                       <div class = "col-2 fbele"><input type="text" placeholder="검색어"></div>
                       <div class = "col-2 fbele bu"><button class="btn btn-primary" type="submit"></button><button class="btn btn-primary" type="submit"></button></div>
                   </div>
                   <div class="row bb">
-                    <div class ="col-3"><h5>Total:160</h4></div>
+                    <div class ="col-3"><h5>Total:42</h4></div>
                     <div class ="col-3"></div>
                     <div class ="col-6">
                       <select class="form-select" aria-label="Default select example">
@@ -176,83 +181,71 @@
                             <th width="5%">사용</th>
                             <th width="14%">코드그룹 코드</th>
                             <th width="20%">코드그룹 이름</th>
-                            <th width="5%">코드</th>
-                            <th width="8%">대체코드</th>
-                            <th width="8%">코드이름</th>
-                            <th width="14%">코드이름(영문)</th>
+                            <th width="14%">코드그룹 이름(영문)</th>
+                            <th width="8%">갯수</th>
                             <th width="5%">순서</th>
                             <th width="6%">등록일</th>
                             <th width="6%">수정일</th>
                           </tr>
                           <tr>
-                            <td width="1%"><input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"></th>
-                            <td width="1%">160</th>
-                            <td width="5%">Y</th>
-                            <td width="14%">42</th>
-                            <td width="20%">작품기타사이트유형</th>
-                            <td width="5%">381</th>
-                            <td width="8%"></th>
-                            <td width="10%"><a href="">공식홈페이지</a></th>
-                            <td width="14%"></th>
-                            <td width="5%">1</th>
-                            <td width="1%"></th>
-                            <td width="1%"></th>
+                            <td width="1%"><input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"></td>
+                            <td width="1%">160</td>
+                            <td width="5%">Y</td>
+                            <td width="14%">42</td>
+                            <td width="20%"><a href="">작품기타사이트유형</a></td>
+                            <td width="14%"></td>
+                            <td width="10%">8</td>
+                            <td width="5%">1</td>
+                            <td width="1%"></td>
+                            <td width="1%"></td>
                           </tr>
                           <tr>
                             <td width="1%"><input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"></th>
-                            <td width="1%">159</th>
-                            <td width="5%">Y</th>
-                            <td width="14%">42</th>
-                            <td width="20%">작품기타사이트유형</th>
-                            <td width="5%">382</th>
-                            <td width="8%"></th>
-                            <td width="10%"><a href="">기타사이트</a></th>
-                            <td width="14%"></th>
-                            <td width="5%">2</th>
-                            <td width="1%"></th>
-                            <td width="1%"></th>
+                            <td width="1%">159</td>
+                            <td width="5%">Y</td>
+                            <td width="14%">42</td>
+                            <td width="20%"><a  href="">작품기타사이트유형</a></th>
+                            <td width="14%"></td>
+                            <td width="10%">9</td>
+                            <td width="5%">2</td>
+                            <td width="1%"></td>
+                            <td width="1%"></td>
                           </tr>
                           <tr>
-                            <td width="1%"><input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"></th>
-                            <td width="1%">158</th>
-                            <td width="5%">Y</th>
-                            <td width="14%">41</th>
-                            <td width="20%">작품연재사이트</th>
-                            <td width="5%">372</th>
-                            <td width="8%"></th>
-                            <td width="10%"><a href="">네이버웹툰</a></th>
-                            <td width="14%"></th>
-                            <td width="5%">1</th>
-                            <td width="1%"></th>
-                            <td width="1%"></th>
+                            <td width="1%"><input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"></td>
+                            <td width="1%">158</td>
+                            <td width="5%">Y</td>
+                            <td width="14%">41</td>
+                            <td width="20%"><a  href="">작품연재사이트</a></td>
+                            <td width="14%"></td>
+                            <td width="10%">9</td>
+                            <td width="5%">1</td>
+                            <td width="1%"></td>
+                            <td width="1%"></td>
                           </tr>
                           <tr>
-                            <td width="1%"><input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"></th>
-                            <td width="1%">157</th>
-                            <td width="5%">Y</th>
-                            <td width="14%">41</th>
-                            <td width="20%">작품연재사이트</th>
-                            <td width="5%">383</th>
-                            <td width="8%"></th>
-                            <td width="10%"><a href="">카카오웹툰</a></th>
-                            <td width="14%"></th>
-                            <td width="5%">1</th>
-                            <td width="1%"></th>
-                            <td width="1%"></th>
+                            <td width="1%"><input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"></td>
+                            <td width="1%">157</td>
+                            <td width="5%">Y</td>
+                            <td width="14%">41</td>
+                            <td width="20%"><a  href="">작품연재사이트</a></td>
+                            <td width="14%"></td>
+                            <td width="10%">10</td>
+                            <td width="5%">1</td>
+                            <td width="1%"></td>
+                            <td width="1%"></td>
                           </tr>
                           <tr>
-                            <td width="1%"><input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"></th>
-                            <td width="1%">156</th>
-                            <td width="5%">Y</th>
-                            <td width="14%">42</th>
-                            <td width="20%">작품연재사이트</th>
-                            <td width="5%">381</th>
-                            <td width="8%"></th>
-                            <td width="10%"><a href="">버프툰</a></th>
-                            <td width="14%"></th>
-                            <td width="5%">3</th>
-                            <td width="1%"></th>
-                            <td width="1%"></th>
+                            <td width="1%"><input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"></td>
+                            <td width="1%">156</td>
+                            <td width="5%">Y</td>
+                            <td width="14%">42</td>
+                            <td width="20%"><a  href="">작품연재사이트</a></td>
+                            <td width="14%"></td>
+                            <td width="10%">7</td>
+                            <td width="5%">3</td>
+                            <td width="1%"></td>
+                            <td width="1%"></td>
                           </tr>
                         </thead>
                       </table> 
